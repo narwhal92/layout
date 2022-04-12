@@ -16,6 +16,7 @@ body{
     max-width:940px;
     display: flex;
     align-items: center;
+    margin:0 auto;
 }
 
 header{
@@ -43,7 +44,7 @@ nav{
     font-size: 12px;
     line-height: 18px;
     text-transform: uppercase; 
-    
+    letter-spacing: 2px;
 }
 
 .nav>li:not(:first-child){
@@ -69,7 +70,8 @@ nav{
     font-size:12px;
     line-height:18px;
     text-transform: uppercase;
-    margin-left:10px; 
+    margin-left:10px;
+    letter-spacing: 2px; 
 }
 
 .cart-counter{
@@ -82,4 +84,54 @@ nav{
     font-size:11px;
     line-height:18px;
     margin-left:15px; 
+}
+
+.slider{
+    background: #050827;
+}
+
+.slider-text{
+    color:#ffffff;
+    text-align: center;
+    
+}
+
+.slider-wrap{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    background:url("../img/slider-bg.jpg");
+    background-repeat:no-repeat;
+    background-position: bottom center;
+    padding-top:159px;
+    padding-bottom:177px;
+}
+
+.slider-pre-title{
+    font-size:12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 18px;
+    margin-bottom:20px;
+}
+
+.slider-title{
+    font-size:47px;
+    line-height:60px;
+    margin-bottom:20px;
+}
+
+.slider-after-title{
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom:50px;
+}
+
+.slider-button{
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    padding:5px 50px;
+    background:#ffffff;
+    text-transform: uppercase;
 }
